@@ -1,0 +1,9 @@
+/* .App{
+  overflow: visible;
+} */
+
+.App_sidebar_main{
+  position: relative;
+  top: 60px;
+  display: flex;
+}

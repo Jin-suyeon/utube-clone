@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(29, 29, 29);
+  z-index: 999;
+}
+
+.header_sub {
+  justify-content: space-between;
+  width: 96%;
+  display: flex;
+}
+
+.header_fst{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_sec{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_thd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+
+.header_bar{
+  color: white;
+  margin-right: 25px;
+}
+
+.header_utube-icon{
+  margin-left: 10px;
+  height: 22px;
+}
+
+.header_input {
+  width: 50%;
+  margin-right: -3px;
+}
+
+.header_input > input {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(17, 17, 17);
+  border: solid 1px rgb(59, 59, 59);
+  border-radius: 2px;
+  outline: 0;
+  color: white;
+  z-index: 1;
+}
+
+.header_input > input:focus {
+  border: solid 1px rgb(56, 117, 248);
+  padding-left: 5px;
+}
+
+.header_input > input::placeholder{
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+.header_input > input::{
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+.header_sec > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  color: rgb(131, 131, 131);
+  width: 80px;
+  height: 30px;
+  border-radius: 2px;
+  background-color: rgb(59, 59, 59);
+  border: none;
+}
+
+.header_mike{
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.header_user-image{
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+
+.header_app{
+  margin-left: 30px;
+}
+
+.header_bell{
+  margin-left: 30px;
+  font-size: 22px;
+}
+
+
+
+
